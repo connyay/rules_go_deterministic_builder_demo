@@ -2,7 +2,7 @@
 
 Demo showing non determinist `go_sdk/builder`.
 
-Run `make` from the root of the repo multiple.
+Run `make` from the root of the repo multiple times.
 
 Expected: Same `sha1 bazel-out/host/bin/external/go_sdk/builder` after each builds.
 Actual: Different builder sha1s due to bazel sandbox paths in built binary.
